@@ -1,0 +1,5 @@
+pyMuse-master
+https://github.com/PolyCortex/pyMuse
+
+muse-headband-experiment-master
+https://github.com/nnnoel/muse-headband-experiment
