@@ -12,14 +12,16 @@ def changeSignal(tmp) :
 
 def eeg_handler1(unused_addr, args, ch1):
 	print("Blink: ", ch1)
-	changeSignal("Blink")
+	changeSignal("a")
 
 def eeg_handler2(unused_addr, args, ch1):
 	print("Jaw Clench: ", ch1)
-	changeSignal("Jaw")
+	changeSignal("b")
 
 def eeg_handler3(unused_addr, args, ch1):
 	print("Alpha: ", ch1 * 100)
+	if (ch1 * 100) > 50
+		changeSignal("c")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

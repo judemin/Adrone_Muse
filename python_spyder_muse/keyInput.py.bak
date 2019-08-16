@@ -17,6 +17,7 @@ def progress(dat) :
 	for i in dat : 
 		print("KeyPress : " + i);
 		pyautogui.keyDown(i)
+	pyautogui.keyDown('enter')
 
 def changeSignal(tmp) : 
 	f = open("Dats.txt", 'w')
